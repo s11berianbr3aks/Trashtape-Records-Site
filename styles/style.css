@@ -2,23 +2,38 @@
     background-color: whitesmoke;
 }
 
-#titlesContainer {
+#flex-header {
     background-color: black;
+    z-index: -1;
     margin-left: auto;
     margin-right: auto;
     width: 98%;
- 
+    display: flex;
+    justify-content: space-evenly;
 }
 
 #title {
-    text-align: center;
-    font-size:42pt;
-    color: whitesmoke;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 50px;
-    
-
+  text-align: center;
+  font-size:42pt;
+  background-color: black;
+  color: whitesmoke;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 50px;
+  flex-grow: 1;
 }
+
+.dropdown {
+  text-align: center;
+  font-size:42pt;
+  padding: 50px;
+  background-color: black;
+  color: black;
+}
+
+.dropdownbtn {
+  color: whitesmoke;
+}
+
 
 .flex-container {
     display: flex;
@@ -43,8 +58,51 @@
     flex-direction: column;
 }
 
+.dropbtn {
+  background-color: black;
+  color: whitesmoke;
+  padding: 16px;
+  font-size: 32px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: whitesmoke;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: whitesmoke}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #f64f51;
+}
 
 
 
+
+#artistsPage {
+    
+}
 
 
