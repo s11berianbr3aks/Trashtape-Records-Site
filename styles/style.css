@@ -1,5 +1,5 @@
 #body {
-    background-color: whitesmoke;
+    background-color: Black;
 }
 
 #flex-header {
@@ -24,16 +24,10 @@
 
 .dropdown {
   text-align: center;
-  font-size:42pt;
   padding: 50px;
   background-color: black;
   color: black;
 }
-
-.dropdownbtn {
-  color: whitesmoke;
-}
-
 
 .flex-container {
     display: flex;
@@ -65,6 +59,7 @@
   font-size: 32px;
   border: none;
   cursor: pointer;
+  border-radius: 25%;
 }
 
 .dropdown {
@@ -79,6 +74,7 @@
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  border-radius: 25%;
 }
 
 .dropdown-content a {
@@ -88,7 +84,10 @@
   display: block;
 }
 
-.dropdown-content a:hover {background-color: whitesmoke}
+.dropdown-content a:hover {
+  background-color: whitesmoke
+  border-radius: 25%;
+}
 
 .dropdown:hover .dropdown-content {
   display: block;
@@ -98,7 +97,14 @@
   background-color: #f64f51;
 }
 
-
+#pic {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  width: 98%;
+}
 
 
 #artistsPage {
