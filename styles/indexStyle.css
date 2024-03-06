@@ -1,0 +1,118 @@
+body {
+  background-image: url("/pictures/noYellowPages.png");
+}
+
+#merchHeaderBackground {
+  background-image: url("/pictures/noYellowPages.png");
+}
+
+#flex-header { 
+    background-color: black;
+    z-index: -1;
+    margin-left: auto;
+    margin-right: auto;
+    width: 98%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#title {
+  text-align: center;
+  font-size:42pt;
+  /* background-color: transparent; */
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 50px;
+  flex-grow: 1;
+}
+
+.dropdown {
+  text-align: center;
+  padding: 50px;
+  /* background-color: black; */
+  color: black;
+  position: relative;
+  display: inline-block;
+}
+
+.flex-container {
+    display: flex;
+    /* background-color: black; */
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    width: 98%;
+ 
+}
+
+
+.flex-container > div {
+    background-color: whitesmoke;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+ 
+}
+
+.lil-flex {
+    flex-direction: column;
+}
+
+.dropbtn {
+  background-color: black;
+  color: whitesmoke;
+  padding: 16px;
+  font-size: 32px;
+  border: none;
+  cursor: pointer;
+  border-radius: 25%;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: whitesmoke;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 25%;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: whitesmoke;
+  border-radius: 25%;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #f64f51;
+}
+
+#pic {
+  display: flex;
+  justify-content: center;
+  /* background-color: black; */
+  margin-left: auto;
+  margin-right: auto;
+  width: 98%;
+}
+
+.flexbox-container {
+  display: flex;
+}
+
+.checkoutButton {
+  width: 80px;
+  border: 3px solid #333;
+}
+
