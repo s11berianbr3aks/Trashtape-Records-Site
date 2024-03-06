@@ -1,9 +1,9 @@
 body {
-  background-image: url("/pictures/noYellowPages.png");
+  background-image: url("../pictures/noYellowPages.png");
 }
 
 #merchHeaderBackground {
-  background-image: url("/pictures/noYellowPages.png");
+  background-image: url("../pictures/noYellowPages.png");
 }
 
 #flex-header { 
