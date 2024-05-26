@@ -1,0 +1,26 @@
+body {
+  background-image: url("../pictures/noYellowPages.png");
+}
+
+#merchHeader {
+  background-color: #dfdfdf;
+  border-style: inset;
+  max-width: 600px;
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+.item {
+  background-color: #dfdfdf;
+  border-style: inset;
+  max-width: 300px;
+}
+
+.itemImage {
+    width: 200px;
+    margin: 10px;
+    border: 3px solid #333;
+    background-color: #dfdfdf;
+  }
+
+
+  p.itemImage {border-style: inset;}

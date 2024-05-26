@@ -1,0 +1,20 @@
+body {
+    background-image: url("../pictures/noYellowPages.png");
+  }
+
+.artistsHeader {
+    background-color: #dfdfdf;
+    border-style: inset;
+    max-width: 600px;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+.artistTile {
+        background-color: #dfdfdf;
+        border-style: inset;
+        max-width: 300px;
+}
+
+.artistName {
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
